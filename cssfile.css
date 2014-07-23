@@ -1,0 +1,13 @@
+body{
+	text-align: center;
+}
+
+#number {
+	font: bold 60px Century Gothic;
+}
+
+input {
+	width: 100px;
+	height: 100px;
+	font: bold 50px Century Gothic;
+}
