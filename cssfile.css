@@ -11,3 +11,8 @@ input {
 	height: 100px;
 	font: bold 50px Century Gothic;
 }
+
+li>a.tappable-active {
+    color: #fff;
+    background-color: #4286f5;
+}
