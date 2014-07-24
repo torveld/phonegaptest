@@ -6,14 +6,14 @@
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta charset="utf-8"/>
 <script src="javaskript.js"></script>
+<script src="phonegap.js"></script>
 <link rel="stylesheet" href="cssfile.css"/>
 </head>
 
-<body  onload="getStorage();">
+<body  onload="getStorage();showAlert();">
 	<h1>COUNTER</h1>
 	<p id="number">0</p>
 	<input id="buttonAdd" type="button" value="+" onClick="add(1);"/>
 	<input id="buttonSub" type="button" value="-" onClick="subtract(1);"/>
-
 </body>
 </html>
